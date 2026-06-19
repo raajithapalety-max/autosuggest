@@ -1,0 +1,23 @@
+{
+  "name": "autosuggest",
+  "version": "1.0.0",
+  "description": "verifying my setup\r 1.add(plus button)\r 2.commit with msg\r 3.push/sync",
+  "homepage": "https://github.com/raajithapalety-max/autosuggest#readme",
+  "bugs": {
+    "url": "https://github.com/raajithapalety-max/autosuggest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raajithapalety-max/autosuggest.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
