@@ -8,21 +8,27 @@
 </head>
 <body>
     <div id="topbar">
-    <span class="gear">&#9881;</span>
-    <span id="topText">
-    <span class="bullet">&#8226;</span>online | 
-    <span class="clock">&#128338;</span>- ms 
-    </span>
+        <span class="gear">⚙</span>
+        <span id="topText">
+            <span class="bullet">•</span> online |
+            <span class="clock">🕒</span> - ms
+        </span>
     </div>
+
     <div class="heading">
-    <h1><span id="being">Being</span>Infinity</h1>
-    <p>One million phrases.Four algorithms.Prefix Based Auto Suggest</p>
-    <!-- <span id="lens">&#128269;</span> -->
-    <span>
-        <input id="searchbar" type="text" placeholder=" &#128269;   start typing to search phrases....">
-    </span>
+        <h1><span id="being">Being</span>Infinity</h1>
+        <p>One million phrases. Four algorithms. Prefix Based Auto Suggest</p>
+
+        <div class="search-container">
+            <input
+                id="searchbar"
+                type="text"
+                placeholder="🔍 Start typing to search phrases..."
+            >
+            <div id="search-suggestions"></div>
+        </div>
     </div>
-    <div id="search"></div>
-    
+
+    <script src="./js/autosuggest.js"></script>
 </body>
 </html>
