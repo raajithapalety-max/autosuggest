@@ -62,3 +62,10 @@ body{
 .card{
     width:100%;
 }
+#togglebtn{
+    background-color:rgb(84, 166, 88);
+    font-size: 15px;
+    border-radius: 3px;
+    padding:5px;
+    color:white;
+}
