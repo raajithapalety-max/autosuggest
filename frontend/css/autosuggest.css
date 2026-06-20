@@ -1,7 +1,6 @@
 #being{
-    color: rgb(140, 85, 230);
+    color: rgb(127, 12, 169);
 }
-
 
 .heading{
     text-align: center;
@@ -10,12 +9,17 @@
     text-align: right;
 }
 .gear{
-    float: left;
+   float:left;
 }
 #searchbar{
-    border-radius: 23px;
-    padding: 10px;
+ 
+    border-radius: 20px;
+     padding: 10px;
     width: 250px;
-    
 
 }
+/* .lens{
+    position: relative;
+    top: 20px;
+    left: 10px;
+} */
